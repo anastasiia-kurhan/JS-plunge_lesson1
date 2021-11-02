@@ -28,6 +28,13 @@ console.log(hometown);
     ps: каждая сущность должна находиться в отдельной переменной
 */
 
+let height = 40,
+    width = 70,
+
+    area = height * width;
+
+console.log(area);
+
 /*
     Задание 3:
 
