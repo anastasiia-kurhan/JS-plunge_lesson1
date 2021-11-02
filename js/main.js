@@ -49,6 +49,14 @@ console.log(area);
 
 */
 
+let time = 2,
+    speedOfFirst = 95,
+    speedOfSecond = 114,
+
+    convergenceSpeed = speedOfFirst + speedOfSecond,
+    distance = convergenceSpeed * time;
+
+console.log(distance);
 
 /*
     Задание 4:
