@@ -71,8 +71,21 @@ console.log(distance);
     - если randomNumber больше 50, то выведите в консоль сообщение : "randomNumber больше 50"
     - если ни один из вариантов не совпал, то выведите в консоль сообщение : "randomNumber больше 20, и меньше 50"
 */
-
 const randomNumber = Math.floor(Math.random() * 100);
+
+if (randomNumber < 20){
+    console.log("randomNumber меньше 20");
+} else if (randomNumber > 50){
+    console.log("randomNumber больше 50");
+} else {
+    console.log("randomNumber больше 20, и меньше 50");
+}
+
+/*
+    Задание 5:
+
+    Условную конструкцию из задания 4, перепишите с помощью Switch Case
+*/
 
 switch (randomNumber){
     case randomNumber < 20:
@@ -84,12 +97,4 @@ switch (randomNumber){
     default:
         console.log("randomNumber больше 20, и меньше 50");
 }
-
-/*
-    Задание 5:
-
-    Условную конструкцию из задания 4, перепишите с помощью Switch Case
-*/
-
-
 
