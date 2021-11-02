@@ -15,7 +15,6 @@ const hometown = {
     population: 1444540,
     field: true
 };
-console.log(hometown);
 
 /*
     Задание 2:
